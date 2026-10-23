@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "allowed_hosts": [
+    "commerce.sz.gov.cn",
+    "fgw.sz.gov.cn",
+    "ga.sz.gov.cn",
+    "gzw.sz.gov.cn",
+    "hrss.sz.gov.cn",
+    "hsa.sz.gov.cn",
+    "mzj.sz.gov.cn",
+    "szeb.sz.gov.cn",
+    "wjw.sz.gov.cn",
+    "www.sz.gov.cn",
+    "zjj.sz.gov.cn",
+    "zxqyj.sz.gov.cn"
+  ],
+  "sources": [
+    {
+      "id": "graduate-support-2025",
+      "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12317950.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "graduate-application-2026",
+      "url": "https://www.sz.gov.cn/ztfw/jylyfwzt/wyw_184838/ywzsk_184570/content/post_12932260.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "faq",
+      "topic": "2026高校毕业生求职补贴申请方法",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "provident-rules-2025",
+      "url": "https://zjj.sz.gov.cn/csml/zcfg/xxgk/yshjgg/content/post_12553079.html",
+      "selector": ".article_content",
+      "kind": "policy",
+      "topic": "住房公积金",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12958412",
+      "related_ids": [],
+      "url": "https://hsa.sz.gov.cn/fzlm/znts/cnyc/content/post_12958412.html",
+      "topic": "社保医保",
+      "selector": ".articlebox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12985593",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12985593.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    }
+  ]
+}

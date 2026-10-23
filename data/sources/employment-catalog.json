@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "cutoff": "2024-10-18",
+  "as_of": "2026-10-18",
+  "directories": [
+    {
+      "id": "employment-news",
+      "name": "就业资讯",
+      "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/"
+    },
+    {
+      "id": "employment-faq",
+      "name": "就业创业问答库",
+      "url": "https://www.sz.gov.cn/hdjl/ywzsk/rsj/jycy/"
+    },
+    {
+      "id": "recruitment",
+      "name": "招考招聘",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/index.html"
+    },
+    {
+      "id": "public-employment",
+      "name": "公共就业服务",
+      "url": "https://hrss.sz.gov.cn/ztfw/ggjy/index.html"
+    },
+    {
+      "id": "employment-promotion",
+      "name": "促进就业",
+      "url": "https://hrss.sz.gov.cn/ztfw/cjjy/index.html"
+    },
+    {
+      "id": "graduate-support",
+      "name": "就业政策与解读",
+      "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/"
+    },
+    {
+      "id": "employment-topic",
+      "name": "就业一站式服务",
+      "url": "https://www.sz.gov.cn/ztfw/jylyfwzt/"
+    }
+  ],
+  "seed_urls": [
+    "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12944270.html",
+    "https://www.sz.gov.cn/ztfw/jylyfwzt/wyk_184808/content/post_12679714.html",
+    "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_12926521.html",
+    "https://www.sz.gov.cn/ztfw/jylyfwzt/wyw_184838/ywzsk_184570/content/post_12755007.html",
+    "https://hrss.sz.gov.cn/xxgk/qtxx/gzdt/content/post_12979241.html",
+    "https://gzw.sz.gov.cn/gzrc/rczx/content/post_12582967.html",
+    "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12317950.html"
+  ]
+}

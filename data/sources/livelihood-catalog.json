@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "cutoff": "2024-10-18",
+  "as_of": "2026-10-18",
+  "directories": [
+    {
+      "topic": "居住与户政",
+      "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/",
+      "pattern": "居住证|签注|居住登记"
+    },
+    {
+      "topic": "社保医保",
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/index.html",
+      "pattern": "参保|补缴|断缴|保险"
+    },
+    {
+      "topic": "社保医保",
+      "url": "https://hsa.sz.gov.cn/zwgk/zdxzjc/",
+      "pattern": "儿童|转移接续|基本医疗保险|医保待遇"
+    },
+    {
+      "topic": "住房公积金",
+      "url": "https://zjj.sz.gov.cn/ztfw/zfbz/",
+      "pattern": "轮候|公租|公共租赁|租房|公积金"
+    },
+    {
+      "topic": "养老救助",
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/",
+      "pattern": "高龄|养老|适老|补贴|津贴"
+    },
+    {
+      "topic": "孩子入学",
+      "url": "https://www.sz.gov.cn/school/tzgg/",
+      "pattern": "2026|2025"
+    }
+  ],
+  "seeds": [
+    {
+      "topic": "社保医保",
+      "url": "https://hsa.sz.gov.cn/fzlm/znts/cnyc/content/post_12958412.html"
+    },
+    {
+      "topic": "社保医保",
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/rmwd/content/post_12703511.html"
+    },
+    {
+      "topic": "社保医保",
+      "url": "https://hrss.sz.gov.cn/szsi/sbjxxgk/gzdt/content/post_12956467.html"
+    },
+    {
+      "topic": "养老救助",
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/mpost_12985593.html"
+    },
+    {
+      "topic": "住房公积金",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_12745504.html"
+    },
+    {
+      "topic": "孩子入学",
+      "url": "https://www.sz.gov.cn/school/tzgg/content/post_12828484.html"
+    },
+    {
+      "topic": "孩子入学",
+      "url": "https://szeb.sz.gov.cn/home/xxgk/zdlyxxgkzl/xqjy/content/post_12823966.html"
+    },
+    {
+      "topic": "住房公积金",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12972743.html"
+    },
+    {
+      "topic": "消费补贴",
+      "url": "https://fgw.sz.gov.cn/ztzl/qtztzl/szscjmyjjfzzhfwpt/zcydt/content/post_12690696.html"
+    },
+    {
+      "topic": "消费补贴",
+      "url": "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12801327.html"
+    }
+  ]
+}

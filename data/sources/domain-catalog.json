@@ -1,0 +1,1056 @@
+{
+  "schema_version": 1,
+  "complete_city_coverage": false,
+  "domains": [
+    {
+      "id": "residency",
+      "name": "居住与户政",
+      "sources": [
+        {
+          "source_id": "youth-entry-faq",
+          "title": "如何申请新引进青年人才入户补贴？",
+          "url": "https://hrss.sz.gov.cn/zmhd/cjwt/cjwt/rsrc/content/post_12601559.html",
+          "published_at": "2026-01-15 10:21"
+        },
+        {
+          "source_id": "livelihood-12972743",
+          "title": "宝安面向户籍轮候家庭配租1425套公租房",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12972743.html",
+          "published_at": "2026-09-08 17:48:42"
+        },
+        {
+          "source_id": "livelihood-12970602",
+          "title": "哪些申报义务人应当即时申报居住登记信息？",
+          "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12970602.html",
+          "published_at": "2026-09-10"
+        },
+        {
+          "source_id": "livelihood-12922621",
+          "title": "居住证签注需要更换证件卡体吗？",
+          "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12922621.html",
+          "published_at": "2026-08-20"
+        },
+        {
+          "source_id": "livelihood-12922617",
+          "title": "居住证可以加急办理吗？",
+          "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12922617.html",
+          "published_at": "2026-08-10"
+        },
+        {
+          "source_id": "livelihood-12768564",
+          "title": "港澳台人员如何申报居住登记？",
+          "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12768564.html",
+          "published_at": "2026-05-20"
+        },
+        {
+          "source_id": "livelihood-12728192",
+          "title": "可用于办理居住证的社保包含哪些？",
+          "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12728192.html",
+          "published_at": "2026-04-20"
+        },
+        {
+          "source_id": "livelihood-12728182",
+          "title": "补缴的社保能否用于办理居住证？",
+          "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12728182.html",
+          "published_at": "2026-04-10"
+        },
+        {
+          "source_id": "livelihood-12912294",
+          "title": "没有居住证，非深户可以申请办理灵活就业人员参保吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12912294.html",
+          "published_at": "2026-07-28 14:42"
+        },
+        {
+          "source_id": "livelihood-12801447",
+          "title": "在深灵活就业的非深户籍人员，如何以个人身份参加养老保险？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12801447.html",
+          "published_at": "2026-05-22 11:24"
+        },
+        {
+          "source_id": "livelihood-12896947",
+          "title": "中度以上失能老年人户籍所在地为深圳市以外，但居住在深圳，能申请养老服务消费补贴吗？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12896947.html",
+          "published_at": "2026-07-17 14:23"
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "name": "就业与人才",
+      "sources": [
+        {
+          "source_id": "youth-entry-faq",
+          "title": "如何申请新引进青年人才入户补贴？",
+          "url": "https://hrss.sz.gov.cn/zmhd/cjwt/cjwt/rsrc/content/post_12601559.html",
+          "published_at": "2026-01-15 10:21"
+        },
+        {
+          "source_id": "skills-extension",
+          "title": "深圳市人力资源和社会保障局关于延长《深圳市职业技能培训补贴办法》有效期的通知",
+          "url": "https://hrss.sz.gov.cn/xxgk/zcfgjjd/zcfg/rcfw/content/post_12577876.html",
+          "published_at": "2025-12-30 17:48"
+        },
+        {
+          "source_id": "skills-expiry-faq",
+          "title": "职业技能提升补贴政策有效期到什么时候？",
+          "url": "https://hrss.sz.gov.cn/zmhd/cjwt/cjwt/rsrc/content/post_12894789.html",
+          "published_at": "2026-07-25 17:49"
+        },
+        {
+          "source_id": "startup-job-creation",
+          "title": "创业带动就业补贴",
+          "url": "https://hrss.sz.gov.cn/ztfw/cjjy/cyfw/cybt/content/post_2002499.html",
+          "published_at": "2025-04-21 16:38"
+        },
+        {
+          "source_id": "graduate-support-2025",
+          "title": "2025年深圳市高校毕业生就业创业扶持政策清单",
+          "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12317950.html",
+          "published_at": "2025-08-07 16:41"
+        },
+        {
+          "source_id": "job-expansion-2026",
+          "title": "深圳市公共就业服务中心关于开展2026年一次性扩岗补助申领工作的公告",
+          "url": "https://hrss.sz.gov.cn/tzgg/content/post_13008911.html",
+          "published_at": "2026-10-09 14:19"
+        },
+        {
+          "source_id": "skills-gazette-2026",
+          "title": "深圳市人力资源和社会保障局关于延长《深圳市职业技能培训补贴办法》有效期的通知",
+          "url": "https://www.sz.gov.cn/zfgb/2026/gb1400/content/post_12601164.html",
+          "published_at": "2026-01-08"
+        },
+        {
+          "source_id": "youth-development-2026",
+          "title": "深圳市人力资源和社会保障局 深圳市工业和信息化局 深圳市住房和建设局关于印发《关于加强青年人才来深发展服务保障的若干措施》的通知",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zcfg/content/post_12551434.html",
+          "published_at": "2025-12-16"
+        },
+        {
+          "source_id": "graduate-notice-2026",
+          "title": "深圳市公共就业服务中心关于2026届毕业生申领求职创业补贴的公告",
+          "url": "https://hrss.sz.gov.cn/gkmlpt/content/12/12430/post_12430449.html?jump=true",
+          "published_at": "2025-10-11 17:21"
+        },
+        {
+          "source_id": "graduate-application-2026",
+          "title": "如何申请高校毕业生一次性求职补贴？",
+          "url": "https://www.sz.gov.cn/ztfw/jylyfwzt/wyw_184838/ywzsk_184570/content/post_12932260.html",
+          "published_at": "2026-07-10 17:32:01"
+        },
+        {
+          "source_id": "youth-housing-guide",
+          "title": "关于《深圳市青年人才住房支持实施办法》的政策解读",
+          "url": "https://www.sz.gov.cn/zfgb/zcjd/content/post_12590458.html",
+          "published_at": "2025-12-31"
+        },
+        {
+          "source_id": "employment-12944270",
+          "title": "深圳市人力资源和社会保障局关于深圳市2026年面向高校毕业生公开招募基层公共就业创业服务岗位工作人员公告",
+          "url": "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12944270.html",
+          "published_at": "2026-08-19 17:29:16"
+        },
+        {
+          "source_id": "employment-12679714",
+          "title": "新春首场市级招聘会火热开启，提供岗位逾3700个，涵盖现代服务业多个领域",
+          "url": "https://www.sz.gov.cn/ztfw/jylyfwzt/wyk_184808/content/post_12679714.html",
+          "published_at": "2026-03-12 09:21:22"
+        },
+        {
+          "source_id": "employment-12926521",
+          "title": "我市8月将举行85场招聘活动",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_12926521.html",
+          "published_at": "2026-08-07 12:20:11"
+        },
+        {
+          "source_id": "employment-12755007",
+          "title": "企业如何参加就业见习计划，领取就业见习补贴？",
+          "url": "https://www.sz.gov.cn/ztfw/jylyfwzt/wyw_184838/ywzsk_184570/content/post_12755007.html",
+          "published_at": "2026-04-25 14:47:03"
+        },
+        {
+          "source_id": "employment-12979241",
+          "title": "深圳将赴11所全国重点高校开展专场招聘",
+          "url": "https://hrss.sz.gov.cn/xxgk/qtxx/gzdt/content/post_12979241.html",
+          "published_at": "2026-09-14 10:14"
+        },
+        {
+          "source_id": "employment-12979357",
+          "title": "深圳将赴11所全国重点高校开展专场招聘",
+          "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_12979357.html",
+          "published_at": "2026-09-14 10:14"
+        },
+        {
+          "source_id": "employment-12923887",
+          "title": "人才缺口将达百万级！深圳举行“百万英才汇南粤”鸿蒙人才双选会",
+          "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_12923887.html",
+          "published_at": "2026-08-05 17:27"
+        },
+        {
+          "source_id": "employment-12908625",
+          "title": "深圳每天新增约150个“四新”经济就业岗位",
+          "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_12908625.html",
+          "published_at": "2026-07-24 15:00"
+        },
+        {
+          "source_id": "employment-12868331",
+          "title": "引才赋能特色产业，深圳水贝黄金珠宝专场招聘会火热启幕",
+          "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_12868331.html",
+          "published_at": "2026-06-30 09:10"
+        },
+        {
+          "source_id": "employment-12932252",
+          "title": "一次性求职补贴的补贴对象和申请时间是？",
+          "url": "https://www.sz.gov.cn/hdjl/ywzsk/rsj/jycy/content/post_12932252.html",
+          "published_at": "2026-07-10 17:39:44"
+        },
+        {
+          "source_id": "employment-12932253",
+          "title": "一次性求职补贴的申请条件？",
+          "url": "https://www.sz.gov.cn/hdjl/ywzsk/rsj/jycy/content/post_12932253.html",
+          "published_at": "2026-07-10 17:38:08"
+        },
+        {
+          "source_id": "employment-12932254",
+          "title": "如何申请高校毕业生一次性求职补贴？",
+          "url": "https://www.sz.gov.cn/hdjl/ywzsk/rsj/jycy/content/post_12932254.html",
+          "published_at": "2026-07-10 17:32:01"
+        },
+        {
+          "source_id": "employment-13008068",
+          "title": "深圳市龙华区教育系统公开招聘在编教师2026年度拟聘人员名单公示公告（第六批次）",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_13008068.html",
+          "published_at": "2026-10-07 09:41:30"
+        },
+        {
+          "source_id": "employment-13003486",
+          "title": "深圳市大鹏新区应急管理局2026年9月公开招聘4名编外工作人员的公告",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_13003486.html",
+          "published_at": "2026-09-29 16:33:43"
+        },
+        {
+          "source_id": "employment-12996802",
+          "title": "深圳市大鹏新区重点区域建设发展中心2026年第2次公开招聘编外工作人员拟聘用人员公告",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12996802.html",
+          "published_at": "2026-09-23 15:07:26"
+        },
+        {
+          "source_id": "employment-12993127",
+          "title": "深圳市大鹏新区大鹏办事处2026年7月公开招聘编外人员拟聘人员公示",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12993127.html",
+          "published_at": "2026-09-21 11:00:36"
+        },
+        {
+          "source_id": "employment-12982013",
+          "title": "深圳市大鹏新区重点区域建设发展中心2026年第2次公开招聘编外工作人员总成绩及体检、资格复审公告",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12982013.html",
+          "published_at": "2026-09-15 09:32:49"
+        },
+        {
+          "source_id": "employment-12973924",
+          "title": "深圳市大鹏新区重点区域建设发展中心2026年第2次公开招聘编外工作人员笔试成绩及入围面试人员名单的公告",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12973924.html",
+          "published_at": "2026-09-09 14:40:54"
+        },
+        {
+          "source_id": "employment-12963290",
+          "title": "深圳市大鹏新区城市管理和综合执法局2026年7月公开招聘编外人员拟聘用人员名单公示",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12963290.html",
+          "published_at": "2026-09-01 17:05:56"
+        },
+        {
+          "source_id": "employment-12963326",
+          "title": "深圳市公办中小学2026年6月公开招聘教师龙华区教育局总成绩及入围体检公告",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12963326.html",
+          "published_at": "2026-09-01 09:30:13"
+        },
+        {
+          "source_id": "employment-12326604",
+          "title": "深圳市公共就业服务中心关于发放2025年深圳市就业创业指导服务站补助的公示",
+          "url": "https://hrss.sz.gov.cn/ztfw/cjjy/tzgg/content/post_12326604.html",
+          "published_at": "2025-08-08 22:24"
+        },
+        {
+          "source_id": "employment-12067418",
+          "title": "掌上温暖之家！深圳上线“鹏城暖蜂e站”，护航新就业群体",
+          "url": "https://hrss.sz.gov.cn/ztfw/cjjy/tzgg/content/post_12067418.html",
+          "published_at": "2025-03-12 14:24"
+        },
+        {
+          "source_id": "employment-12767109",
+          "title": "企业如何参加就业见习计划，领取就业见习补贴？",
+          "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12767109.html",
+          "published_at": "2026-04-25 14:47"
+        },
+        {
+          "source_id": "employment-12680805",
+          "title": "我市有哪些政府官方的求职渠道？",
+          "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12680805.html",
+          "published_at": "2025-11-07 15:58"
+        },
+        {
+          "source_id": "employment-12219436",
+          "title": "深圳市人力资源和社会保障局关于公布2024年度深圳市市级就业帮扶基地和2023年度深圳市市级就业帮扶基地复评结果的通知",
+          "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12219436.html",
+          "published_at": "2025-06-09 16:24"
+        },
+        {
+          "source_id": "employment-12219435",
+          "title": "深圳市公共就业服务中心关于开展2025年本市高校就业创业指导服务站补助发放工作的通知",
+          "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12219435.html",
+          "published_at": "2025-06-04 17:11"
+        },
+        {
+          "source_id": "companies-sz-sme-2025",
+          "title": "2025年深圳市专精特新中小企业公示名单",
+          "url": "https://zxqyj.sz.gov.cn/attachment/1/1671/1671112/12595049.pdf",
+          "published_at": "2026-01-09"
+        },
+        {
+          "source_id": "companies-sz-review-2025",
+          "title": "2022年深圳市专精特新中小企业复核通过公示名单",
+          "url": "https://zxqyj.sz.gov.cn/attachment/1/1671/1671113/12595049.pdf",
+          "published_at": "2026-01-09"
+        },
+        {
+          "source_id": "companies-sz-cancel-2026",
+          "title": "取消认定的专精特新中小企业、创新型中小企业名单（2026年第一批）",
+          "url": "https://www.sz.gov.cn/attachment/1/1738/1738951/12875438.pdf",
+          "published_at": "2026-07-02 17:52:40"
+        },
+        {
+          "source_id": "livelihood-13017321",
+          "title": "深圳市罗湖区教育系统公开招聘拟聘人员名单公示公告（2026年第七批）",
+          "url": "https://www.sz.gov.cn/school/tzgg/content/post_13017321.html",
+          "published_at": "2026-10-12 18:52:14"
+        },
+        {
+          "source_id": "livelihood-12703511",
+          "title": "在深灵活就业人员如何线上办理灵活就业参保手续？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/rmwd/content/post_12703511.html",
+          "published_at": "2026-03-26 16:44"
+        },
+        {
+          "source_id": "livelihood-12956467",
+          "title": "深圳灵活就业社保怎么交？养老、失业保险可自行缴纳，线上线下多渠道办理",
+          "url": "https://hrss.sz.gov.cn/szsi/sbjxxgk/gzdt/content/post_12956467.html",
+          "published_at": "2026-08-27 15:09"
+        },
+        {
+          "source_id": "livelihood-12994809",
+          "title": "已办理灵活就业参保登记，但参保信息有误，如何变更？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12994809.html",
+          "published_at": "2026-09-22 16:06"
+        },
+        {
+          "source_id": "livelihood-12959022",
+          "title": "已经参加了灵活就业医疗保险，还想要增加养老和失业保险怎么办？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12959022.html",
+          "published_at": "2026-08-28 17:29"
+        },
+        {
+          "source_id": "livelihood-12912294",
+          "title": "没有居住证，非深户可以申请办理灵活就业人员参保吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12912294.html",
+          "published_at": "2026-07-28 14:42"
+        },
+        {
+          "source_id": "livelihood-12801447",
+          "title": "在深灵活就业的非深户籍人员，如何以个人身份参加养老保险？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12801447.html",
+          "published_at": "2026-05-22 11:24"
+        },
+        {
+          "source_id": "livelihood-12742952",
+          "title": "灵活就业人员必须参加失业保险吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12742952.html",
+          "published_at": "2026-04-17 18:03"
+        },
+        {
+          "source_id": "livelihood-12703207",
+          "title": "在深灵活就业人员如何线上办理灵活就业参保手续？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12703207.html",
+          "published_at": "2026-03-26 16:44"
+        },
+        {
+          "source_id": "livelihood-12591940",
+          "title": "灵活就业人员出现断缴养老保险费情况，应该怎么办？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12591940.html",
+          "published_at": "2026-01-08 16:02"
+        },
+        {
+          "source_id": "livelihood-12544574",
+          "title": "灵活就业人员灵活就业期间未缴纳养老保险，这期间的养老保险可以补缴吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12544574.html",
+          "published_at": "2025-12-11 13:09"
+        },
+        {
+          "source_id": "livelihood-12492416",
+          "title": "灵活就业人员缴费年限不够，可以补缴吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12492416.html",
+          "published_at": "2025-11-14 11:20"
+        },
+        {
+          "source_id": "livelihood-12433820",
+          "title": "从单位辞职后，以灵活就业人员身份继续参保养老保险，缴费年限会累计计算吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12433820.html",
+          "published_at": "2025-10-14 14:19"
+        },
+        {
+          "source_id": "livelihood-12373691",
+          "title": "灵活就业人员养老保险断缴，可以补缴吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12373691.html",
+          "published_at": "2025-09-11 12:13"
+        },
+        {
+          "source_id": "livelihood-12320047",
+          "title": "领取失业保险金期间，可以参加养老保险吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12320047.html",
+          "published_at": "2025-08-08 14:31"
+        },
+        {
+          "source_id": "livelihood-12279315",
+          "title": "哪些灵活就业人员可以参加失业保险呢？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12279315.html",
+          "published_at": "2025-07-15 11:53"
+        },
+        {
+          "source_id": "livelihood-12171385",
+          "title": "灵活就业参保，系统参保的姓名错误，如何变更姓名？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12171385.html",
+          "published_at": "2025-05-13 09:19"
+        },
+        {
+          "source_id": "livelihood-12123081",
+          "title": "个人当月已经参加灵活就业医疗保险，想要增加养老、失业保险怎么办？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12123081.html",
+          "published_at": "2025-04-14 11:03"
+        },
+        {
+          "source_id": "livelihood-12071446",
+          "title": "离职后，能以灵活就业人员身份缴纳养老保险吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12071446.html",
+          "published_at": "2025-03-14 12:45"
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "name": "住房与公积金",
+      "sources": [
+        {
+          "source_id": "youth-development-2026",
+          "title": "深圳市人力资源和社会保障局 深圳市工业和信息化局 深圳市住房和建设局关于印发《关于加强青年人才来深发展服务保障的若干措施》的通知",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zcfg/content/post_12551434.html",
+          "published_at": "2025-12-16"
+        },
+        {
+          "source_id": "youth-housing-guide",
+          "title": "关于《深圳市青年人才住房支持实施办法》的政策解读",
+          "url": "https://www.sz.gov.cn/zfgb/zcjd/content/post_12590458.html",
+          "published_at": "2025-12-31"
+        },
+        {
+          "source_id": "provident-rules-2025",
+          "title": "深圳市住房公积金管理委员会关于印发《深圳市住房公积金提取管理规定》的通知",
+          "url": "https://zjj.sz.gov.cn/csml/zcfg/xxgk/yshjgg/content/post_12553079.html",
+          "published_at": "2025-12-05 17:30"
+        },
+        {
+          "source_id": "livelihood-12745504",
+          "title": "深圳公积金提取覆盖住房消费全链条",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_12745504.html",
+          "published_at": "2026-04-21 11:52:01"
+        },
+        {
+          "source_id": "livelihood-12972743",
+          "title": "宝安面向户籍轮候家庭配租1425套公租房",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12972743.html",
+          "published_at": "2026-09-08 17:48:42"
+        }
+      ]
+    },
+    {
+      "id": "insurance",
+      "name": "社保与医保",
+      "sources": [
+        {
+          "source_id": "social-groups-2026",
+          "title": "2026年个人社保补贴的重点人群范围是？",
+          "url": "https://hrss.sz.gov.cn/zmhd/cjwt/cjwt/jycy/content/post_12943280.html",
+          "published_at": "2026-08-19 15:12"
+        },
+        {
+          "source_id": "social-extension-2026",
+          "title": "个人社保补贴2026年还能申领吗？",
+          "url": "https://www.sz.gov.cn/hdjl/ywzsk/rsj/jycy/content/post_12960600.html",
+          "published_at": "2026-08-31 15:13:02"
+        },
+        {
+          "source_id": "livelihood-12728192",
+          "title": "可用于办理居住证的社保包含哪些？",
+          "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12728192.html",
+          "published_at": "2026-04-20"
+        },
+        {
+          "source_id": "livelihood-12728182",
+          "title": "补缴的社保能否用于办理居住证？",
+          "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12728182.html",
+          "published_at": "2026-04-10"
+        },
+        {
+          "source_id": "livelihood-12958412",
+          "title": "关于开展2026年过渡期及2027年度深圳市居民基本医疗保险集中参保缴费工作的通告",
+          "url": "https://hsa.sz.gov.cn/fzlm/znts/cnyc/content/post_12958412.html",
+          "published_at": "2026-08-28"
+        },
+        {
+          "source_id": "livelihood-12703511",
+          "title": "在深灵活就业人员如何线上办理灵活就业参保手续？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/rmwd/content/post_12703511.html",
+          "published_at": "2026-03-26 16:44"
+        },
+        {
+          "source_id": "livelihood-12956467",
+          "title": "深圳灵活就业社保怎么交？养老、失业保险可自行缴纳，线上线下多渠道办理",
+          "url": "https://hrss.sz.gov.cn/szsi/sbjxxgk/gzdt/content/post_12956467.html",
+          "published_at": "2026-08-27 15:09"
+        },
+        {
+          "source_id": "livelihood-12994809",
+          "title": "已办理灵活就业参保登记，但参保信息有误，如何变更？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12994809.html",
+          "published_at": "2026-09-22 16:06"
+        },
+        {
+          "source_id": "livelihood-12959022",
+          "title": "已经参加了灵活就业医疗保险，还想要增加养老和失业保险怎么办？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12959022.html",
+          "published_at": "2026-08-28 17:29"
+        },
+        {
+          "source_id": "livelihood-12912294",
+          "title": "没有居住证，非深户可以申请办理灵活就业人员参保吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12912294.html",
+          "published_at": "2026-07-28 14:42"
+        },
+        {
+          "source_id": "livelihood-12853336",
+          "title": "如何通过微信公众号查询个人参保信息？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12853336.html",
+          "published_at": "2026-06-22 15:39"
+        },
+        {
+          "source_id": "livelihood-12801447",
+          "title": "在深灵活就业的非深户籍人员，如何以个人身份参加养老保险？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12801447.html",
+          "published_at": "2026-05-22 11:24"
+        },
+        {
+          "source_id": "livelihood-12742952",
+          "title": "灵活就业人员必须参加失业保险吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12742952.html",
+          "published_at": "2026-04-17 18:03"
+        },
+        {
+          "source_id": "livelihood-12703207",
+          "title": "在深灵活就业人员如何线上办理灵活就业参保手续？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12703207.html",
+          "published_at": "2026-03-26 16:44"
+        },
+        {
+          "source_id": "livelihood-12632190",
+          "title": "如何查询自己的社保参保记录？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12632190.html",
+          "published_at": "2026-02-04 15:58"
+        },
+        {
+          "source_id": "livelihood-12591940",
+          "title": "灵活就业人员出现断缴养老保险费情况，应该怎么办？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12591940.html",
+          "published_at": "2026-01-08 16:02"
+        },
+        {
+          "source_id": "livelihood-12544574",
+          "title": "灵活就业人员灵活就业期间未缴纳养老保险，这期间的养老保险可以补缴吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12544574.html",
+          "published_at": "2025-12-11 13:09"
+        },
+        {
+          "source_id": "livelihood-12492416",
+          "title": "灵活就业人员缴费年限不够，可以补缴吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12492416.html",
+          "published_at": "2025-11-14 11:20"
+        },
+        {
+          "source_id": "livelihood-12433820",
+          "title": "从单位辞职后，以灵活就业人员身份继续参保养老保险，缴费年限会累计计算吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12433820.html",
+          "published_at": "2025-10-14 14:19"
+        },
+        {
+          "source_id": "livelihood-12373691",
+          "title": "灵活就业人员养老保险断缴，可以补缴吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12373691.html",
+          "published_at": "2025-09-11 12:13"
+        },
+        {
+          "source_id": "livelihood-12320047",
+          "title": "领取失业保险金期间，可以参加养老保险吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12320047.html",
+          "published_at": "2025-08-08 14:31"
+        },
+        {
+          "source_id": "livelihood-12279315",
+          "title": "哪些灵活就业人员可以参加失业保险呢？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12279315.html",
+          "published_at": "2025-07-15 11:53"
+        },
+        {
+          "source_id": "livelihood-12248061",
+          "title": "无雇工的个体工商户经营者该如何参保呢？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12248061.html",
+          "published_at": "2025-06-26 10:44"
+        },
+        {
+          "source_id": "livelihood-12171385",
+          "title": "灵活就业参保，系统参保的姓名错误，如何变更姓名？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12171385.html",
+          "published_at": "2025-05-13 09:19"
+        },
+        {
+          "source_id": "livelihood-12123081",
+          "title": "个人当月已经参加灵活就业医疗保险，想要增加养老、失业保险怎么办？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12123081.html",
+          "published_at": "2025-04-14 11:03"
+        },
+        {
+          "source_id": "livelihood-12071446",
+          "title": "离职后，能以灵活就业人员身份缴纳养老保险吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12071446.html",
+          "published_at": "2025-03-14 12:45"
+        },
+        {
+          "source_id": "livelihood-12552132",
+          "title": "深圳市医疗保障局 深圳市财政局关于完善我市儿童参加基本医疗保险有关事项的通知",
+          "url": "https://hsa.sz.gov.cn/zwgk/zdxzjc/content/post_12552132.html",
+          "published_at": "2025-08-07"
+        },
+        {
+          "source_id": "livelihood-12524161",
+          "title": "深圳市医疗保障局 深圳市财政局 国家税务总局深圳市税务局关于贯彻落实基本医疗保险关系转移接续有关事项的通知",
+          "url": "https://hsa.sz.gov.cn/zwgk/zdxzjc/content/post_12524161.html",
+          "published_at": "2025-11-26"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "name": "生育与家庭",
+      "sources": [
+        {
+          "source_id": "maternity-benefit",
+          "title": "职工个人可申领生育津贴吗？",
+          "url": "https://hsa.sz.gov.cn/gkmlpt/content/12/12882/post_12882630.html",
+          "published_at": "2026-07-08 11:12"
+        },
+        {
+          "source_id": "childcare-2026",
+          "title": "2026年育儿补贴，开始申领啦！",
+          "url": "https://wjw.sz.gov.cn/gzcy/ywzs/jhsy/content/post_12607841.html",
+          "published_at": "2026-01-20 09:07"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "name": "教育与学生资助",
+      "sources": [
+        {
+          "source_id": "school-admission-2026",
+          "title": "深圳市教育局关于做好2026年普通中小学招生入学工作的通知",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tzgg/content/post_12819389.html",
+          "published_at": "2026-06-03 10:21:25"
+        },
+        {
+          "source_id": "employment-13008068",
+          "title": "深圳市龙华区教育系统公开招聘在编教师2026年度拟聘人员名单公示公告（第六批次）",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_13008068.html",
+          "published_at": "2026-10-07 09:41:30"
+        },
+        {
+          "source_id": "employment-12963326",
+          "title": "深圳市公办中小学2026年6月公开招聘教师龙华区教育局总成绩及入围体检公告",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12963326.html",
+          "published_at": "2026-09-01 09:30:13"
+        },
+        {
+          "source_id": "livelihood-12828484",
+          "title": "南山区2026年义务教育阶段公办学校新生入学申请指南",
+          "url": "https://www.sz.gov.cn/school/tzgg/content/post_12828484.html",
+          "published_at": "2026-06-08 16:42:00"
+        },
+        {
+          "source_id": "livelihood-12823966",
+          "title": "深圳市教育局关于做好2026年秋季学期幼儿园招生工作的通知",
+          "url": "https://szeb.sz.gov.cn/home/xxgk/zdlyxxgkzl/xqjy/content/post_12823966.html",
+          "published_at": "2026-06-05 09:51"
+        },
+        {
+          "source_id": "livelihood-13024639",
+          "title": "光明区教育局关于2025-2026学年民办中小学教师长期从教津贴发放名单的公示",
+          "url": "https://www.sz.gov.cn/school/tzgg/content/post_13024639.html",
+          "published_at": "2026-10-16 09:30:59"
+        },
+        {
+          "source_id": "livelihood-13025728",
+          "title": "罗湖区2025年度民办中小学年检结果公示",
+          "url": "https://www.sz.gov.cn/school/tzgg/content/post_13025728.html",
+          "published_at": "2026-10-15 17:05:21"
+        },
+        {
+          "source_id": "livelihood-13017321",
+          "title": "深圳市罗湖区教育系统公开招聘拟聘人员名单公示公告（2026年第七批）",
+          "url": "https://www.sz.gov.cn/school/tzgg/content/post_13017321.html",
+          "published_at": "2026-10-12 18:52:14"
+        },
+        {
+          "source_id": "livelihood-13016392",
+          "title": "光明区教育局关于做好2026-2027学年在园儿童健康成长补贴申请与发放工作的通知",
+          "url": "https://www.sz.gov.cn/school/tzgg/content/post_13016392.html",
+          "published_at": "2026-10-10 14:31:29"
+        },
+        {
+          "source_id": "livelihood-13010260",
+          "title": "盐田区教育培训机构2025年度检查公告信息",
+          "url": "https://www.sz.gov.cn/school/tzgg/content/post_13010260.html",
+          "published_at": "2026-10-08 17:08:35"
+        }
+      ]
+    },
+    {
+      "id": "care",
+      "name": "养老与社会救助",
+      "sources": [
+        {
+          "source_id": "eldercare-worker-2026",
+          "title": "深圳市民政局  深圳市财政局关于印发《深圳市养老机构从业人员补贴办法》的通知",
+          "url": "https://www.sz.gov.cn/zfgb/2026/gb1422/content/post_12914032.html",
+          "published_at": "2026-07-27"
+        },
+        {
+          "source_id": "smart-products-2026",
+          "title": "深圳市商务局关于开展深圳市2026年智能家居（含适老化家居产品）和其他智能产品购新补贴工作的公告",
+          "url": "https://commerce.sz.gov.cn/gkmlpt/content/12/12801/post_12801325.html",
+          "published_at": "2026-05-22 11:08"
+        },
+        {
+          "source_id": "maternity-benefit",
+          "title": "职工个人可申领生育津贴吗？",
+          "url": "https://hsa.sz.gov.cn/gkmlpt/content/12/12882/post_12882630.html",
+          "published_at": "2026-07-08 11:12"
+        },
+        {
+          "source_id": "livelihood-12801327",
+          "title": "深圳市商务局关于开展深圳市2026年智能家居（含适老化家居产品）和其他智能产品购新补贴工作的公告",
+          "url": "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12801327.html",
+          "published_at": "2026-05-22 11:08:03"
+        },
+        {
+          "source_id": "livelihood-13024639",
+          "title": "光明区教育局关于2025-2026学年民办中小学教师长期从教津贴发放名单的公示",
+          "url": "https://www.sz.gov.cn/school/tzgg/content/post_13024639.html",
+          "published_at": "2026-10-16 09:30:59"
+        },
+        {
+          "source_id": "livelihood-12956467",
+          "title": "深圳灵活就业社保怎么交？养老、失业保险可自行缴纳，线上线下多渠道办理",
+          "url": "https://hrss.sz.gov.cn/szsi/sbjxxgk/gzdt/content/post_12956467.html",
+          "published_at": "2026-08-27 15:09"
+        },
+        {
+          "source_id": "livelihood-12985593",
+          "title": "如何申请高龄老人津贴？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12985593.html",
+          "published_at": "2026-09-17 15:41"
+        },
+        {
+          "source_id": "livelihood-12959022",
+          "title": "已经参加了灵活就业医疗保险，还想要增加养老和失业保险怎么办？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12959022.html",
+          "published_at": "2026-08-28 17:29"
+        },
+        {
+          "source_id": "livelihood-12801447",
+          "title": "在深灵活就业的非深户籍人员，如何以个人身份参加养老保险？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12801447.html",
+          "published_at": "2026-05-22 11:24"
+        },
+        {
+          "source_id": "livelihood-12591940",
+          "title": "灵活就业人员出现断缴养老保险费情况，应该怎么办？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12591940.html",
+          "published_at": "2026-01-08 16:02"
+        },
+        {
+          "source_id": "livelihood-12544574",
+          "title": "灵活就业人员灵活就业期间未缴纳养老保险，这期间的养老保险可以补缴吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12544574.html",
+          "published_at": "2025-12-11 13:09"
+        },
+        {
+          "source_id": "livelihood-12433820",
+          "title": "从单位辞职后，以灵活就业人员身份继续参保养老保险，缴费年限会累计计算吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12433820.html",
+          "published_at": "2025-10-14 14:19"
+        },
+        {
+          "source_id": "livelihood-12373691",
+          "title": "灵活就业人员养老保险断缴，可以补缴吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12373691.html",
+          "published_at": "2025-09-11 12:13"
+        },
+        {
+          "source_id": "livelihood-12320047",
+          "title": "领取失业保险金期间，可以参加养老保险吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12320047.html",
+          "published_at": "2025-08-08 14:31"
+        },
+        {
+          "source_id": "livelihood-12123081",
+          "title": "个人当月已经参加灵活就业医疗保险，想要增加养老、失业保险怎么办？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12123081.html",
+          "published_at": "2025-04-14 11:03"
+        },
+        {
+          "source_id": "livelihood-12071446",
+          "title": "离职后，能以灵活就业人员身份缴纳养老保险吗？",
+          "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12071446.html",
+          "published_at": "2025-03-14 12:45"
+        },
+        {
+          "source_id": "livelihood-13024477",
+          "title": "深圳市养老机构从业人员可以申请哪些补贴？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_13024477.html",
+          "published_at": "2026-10-16 11:33"
+        },
+        {
+          "source_id": "livelihood-12938959",
+          "title": "养老服务消费补贴的几大类补贴项目，同一位老年人可在同一个自然月内同时享受吗？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12938959.html",
+          "published_at": "2026-08-17 14:35"
+        },
+        {
+          "source_id": "livelihood-12896947",
+          "title": "中度以上失能老年人户籍所在地为深圳市以外，但居住在深圳，能申请养老服务消费补贴吗？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12896947.html",
+          "published_at": "2026-07-17 14:23"
+        },
+        {
+          "source_id": "livelihood-12849296",
+          "title": "深圳市级银发经济虚拟产业园如何统筹全市养老产业发展？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12849296.html",
+          "published_at": "2026-06-18 10:16"
+        },
+        {
+          "source_id": "livelihood-12849289",
+          "title": "作为养老服务机构的从业人员，应当遵守哪些道德准则？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12849289.html",
+          "published_at": "2026-06-18 10:15"
+        },
+        {
+          "source_id": "livelihood-12798518",
+          "title": "我想要开一家长者助餐机构，可享受哪些运营补贴？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12798518.html",
+          "published_at": "2026-05-21 09:47"
+        },
+        {
+          "source_id": "livelihood-12751298",
+          "title": "今年的智慧养老展什么时候开幕，还举办机器人大赛吗？如何获取展会大赛最新信息？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12751298.html",
+          "published_at": "2026-04-24 09:46"
+        },
+        {
+          "source_id": "livelihood-12702843",
+          "title": "公办养老机构是否对普通市民开放？申请入住需要排多久？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12702843.html",
+          "published_at": "2026-03-26 15:19"
+        },
+        {
+          "source_id": "livelihood-12654473",
+          "title": "想了解深圳养老产业的最新发展情况，有哪些官方发布渠道？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12654473.html",
+          "published_at": "2026-02-26 11:07"
+        },
+        {
+          "source_id": "livelihood-12654468",
+          "title": "哪些老年人可以申领中度以上失能老年人养老服务消费补贴？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12654468.html",
+          "published_at": "2026-02-26 11:06"
+        },
+        {
+          "source_id": "livelihood-12617824",
+          "title": "父母刚刚随迁到深圳，是否可以立即申请到高龄老人津贴?",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12617824.html",
+          "published_at": "2026-01-26 15:19"
+        },
+        {
+          "source_id": "livelihood-12617825",
+          "title": "深圳已建成的智慧养老用品体验中心能体验哪些产品，如何查询就近点位？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12617825.html",
+          "published_at": "2026-01-26 15:20"
+        }
+      ]
+    },
+    {
+      "id": "consumption",
+      "name": "消费补贴",
+      "sources": [
+        {
+          "source_id": "smart-products-2026",
+          "title": "深圳市商务局关于开展深圳市2026年智能家居（含适老化家居产品）和其他智能产品购新补贴工作的公告",
+          "url": "https://commerce.sz.gov.cn/gkmlpt/content/12/12801/post_12801325.html",
+          "published_at": "2026-05-22 11:08"
+        },
+        {
+          "source_id": "livelihood-12745504",
+          "title": "深圳公积金提取覆盖住房消费全链条",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_12745504.html",
+          "published_at": "2026-04-21 11:52:01"
+        },
+        {
+          "source_id": "livelihood-12690696",
+          "title": "深圳发布2026年以旧换新实施方案 购车最高补2万元 数码产品最高补500元",
+          "url": "https://fgw.sz.gov.cn/ztzl/qtztzl/szscjmyjjfzzhfwpt/zcydt/content/post_12690696.html",
+          "published_at": "2026-03-02"
+        },
+        {
+          "source_id": "livelihood-12801327",
+          "title": "深圳市商务局关于开展深圳市2026年智能家居（含适老化家居产品）和其他智能产品购新补贴工作的公告",
+          "url": "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12801327.html",
+          "published_at": "2026-05-22 11:08:03"
+        },
+        {
+          "source_id": "livelihood-12938959",
+          "title": "养老服务消费补贴的几大类补贴项目，同一位老年人可在同一个自然月内同时享受吗？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12938959.html",
+          "published_at": "2026-08-17 14:35"
+        },
+        {
+          "source_id": "livelihood-12896947",
+          "title": "中度以上失能老年人户籍所在地为深圳市以外，但居住在深圳，能申请养老服务消费补贴吗？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12896947.html",
+          "published_at": "2026-07-17 14:23"
+        },
+        {
+          "source_id": "livelihood-12654468",
+          "title": "哪些老年人可以申领中度以上失能老年人养老服务消费补贴？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12654468.html",
+          "published_at": "2026-02-26 11:06"
+        }
+      ]
+    },
+    {
+      "id": "enterprise",
+      "name": "企业与产业扶持",
+      "sources": [
+        {
+          "source_id": "startup-grant",
+          "title": "初创企业补贴",
+          "url": "https://hrss.sz.gov.cn/ztfw/cjjy/cyfw/cybt/content/post_2002519.html",
+          "published_at": "2025-04-21 16:39"
+        },
+        {
+          "source_id": "startup-rent",
+          "title": "创业场租补贴",
+          "url": "https://hrss.sz.gov.cn/ztfw/cjjy/cyfw/cybt/content/post_2002507.html",
+          "published_at": "2025-04-21 16:39"
+        },
+        {
+          "source_id": "startup-job-creation",
+          "title": "创业带动就业补贴",
+          "url": "https://hrss.sz.gov.cn/ztfw/cjjy/cyfw/cybt/content/post_2002499.html",
+          "published_at": "2025-04-21 16:38"
+        },
+        {
+          "source_id": "graduate-support-2025",
+          "title": "2025年深圳市高校毕业生就业创业扶持政策清单",
+          "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12317950.html",
+          "published_at": "2025-08-07 16:41"
+        },
+        {
+          "source_id": "graduate-notice-2026",
+          "title": "深圳市公共就业服务中心关于2026届毕业生申领求职创业补贴的公告",
+          "url": "https://hrss.sz.gov.cn/gkmlpt/content/12/12430/post_12430449.html?jump=true",
+          "published_at": "2025-10-11 17:21"
+        },
+        {
+          "source_id": "employment-12944270",
+          "title": "深圳市人力资源和社会保障局关于深圳市2026年面向高校毕业生公开招募基层公共就业创业服务岗位工作人员公告",
+          "url": "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12944270.html",
+          "published_at": "2026-08-19 17:29:16"
+        },
+        {
+          "source_id": "employment-12755007",
+          "title": "企业如何参加就业见习计划，领取就业见习补贴？",
+          "url": "https://www.sz.gov.cn/ztfw/jylyfwzt/wyw_184838/ywzsk_184570/content/post_12755007.html",
+          "published_at": "2026-04-25 14:47:03"
+        },
+        {
+          "source_id": "employment-12868331",
+          "title": "引才赋能特色产业，深圳水贝黄金珠宝专场招聘会火热启幕",
+          "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_12868331.html",
+          "published_at": "2026-06-30 09:10"
+        },
+        {
+          "source_id": "employment-12326604",
+          "title": "深圳市公共就业服务中心关于发放2025年深圳市就业创业指导服务站补助的公示",
+          "url": "https://hrss.sz.gov.cn/ztfw/cjjy/tzgg/content/post_12326604.html",
+          "published_at": "2025-08-08 22:24"
+        },
+        {
+          "source_id": "employment-12767109",
+          "title": "企业如何参加就业见习计划，领取就业见习补贴？",
+          "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12767109.html",
+          "published_at": "2026-04-25 14:47"
+        },
+        {
+          "source_id": "employment-12219435",
+          "title": "深圳市公共就业服务中心关于开展2025年本市高校就业创业指导服务站补助发放工作的通知",
+          "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12219435.html",
+          "published_at": "2025-06-04 17:11"
+        },
+        {
+          "source_id": "companies-sz-sme-2025",
+          "title": "2025年深圳市专精特新中小企业公示名单",
+          "url": "https://zxqyj.sz.gov.cn/attachment/1/1671/1671112/12595049.pdf",
+          "published_at": "2026-01-09"
+        },
+        {
+          "source_id": "companies-sz-review-2025",
+          "title": "2022年深圳市专精特新中小企业复核通过公示名单",
+          "url": "https://zxqyj.sz.gov.cn/attachment/1/1671/1671113/12595049.pdf",
+          "published_at": "2026-01-09"
+        },
+        {
+          "source_id": "companies-sz-cancel-2026",
+          "title": "取消认定的专精特新中小企业、创新型中小企业名单（2026年第一批）",
+          "url": "https://www.sz.gov.cn/attachment/1/1738/1738951/12875438.pdf",
+          "published_at": "2026-07-02 17:52:40"
+        },
+        {
+          "source_id": "livelihood-12849296",
+          "title": "深圳市级银发经济虚拟产业园如何统筹全市养老产业发展？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12849296.html",
+          "published_at": "2026-06-18 10:16"
+        },
+        {
+          "source_id": "livelihood-12654473",
+          "title": "想了解深圳养老产业的最新发展情况，有哪些官方发布渠道？",
+          "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12654473.html",
+          "published_at": "2026-02-26 11:07"
+        }
+      ]
+    }
+  ]
+}

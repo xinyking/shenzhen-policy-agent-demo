@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "companies-sz-sme-2025",
+      "file": "sz-sme-2025.pdf",
+      "category": "深圳市专精特新中小企业",
+      "cohort": "2025",
+      "status": "认定公示",
+      "count": 2536,
+      "title": "2025年深圳市专精特新中小企业公示名单",
+      "published_at": "2026-01-09",
+      "url": "https://zxqyj.sz.gov.cn/attachment/1/1671/1671112/12595049.pdf",
+      "notice": "https://zxqyj.sz.gov.cn/gkmlpt/content/12/12595/post_12595049.html"
+    },
+    {
+      "id": "companies-sz-review-2025",
+      "file": "sz-review-2025.pdf",
+      "category": "深圳市专精特新中小企业",
+      "cohort": "2022认定／2025复核",
+      "status": "复核公示",
+      "count": 2746,
+      "title": "2022年深圳市专精特新中小企业复核通过公示名单",
+      "published_at": "2026-01-09",
+      "url": "https://zxqyj.sz.gov.cn/attachment/1/1671/1671113/12595049.pdf",
+      "notice": "https://zxqyj.sz.gov.cn/gkmlpt/content/12/12595/post_12595049.html"
+    },
+    {
+      "id": "companies-sz-cancel-2026",
+      "file": "sz-cancel-2026.pdf",
+      "category": "专精特新／创新型混合取消名单（类别待核实）",
+      "cohort": "2026第一批",
+      "status": "取消认定名单涉及",
+      "count": 68,
+      "title": "取消认定的专精特新中小企业、创新型中小企业名单（2026年第一批）",
+      "published_at": null,
+      "url": "https://www.sz.gov.cn/attachment/1/1738/1738951/12875438.pdf",
+      "notice": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tzgg/content/mpost_12875438.html"
+    }
+  ],
+  "province_notice": "https://gdii.gd.gov.cn/gkmlpt/content/4/4856/post_4856033.html",
+  "national_pending": {
+    "url": "https://zxqyj.sz.gov.cn/zwgk/zfxxgkml/tzgg/content/post_12444316.html",
+    "reason": "official original HTTP 404; no secondary roster imported"
+  }
+}

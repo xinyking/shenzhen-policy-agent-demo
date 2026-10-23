@@ -1,0 +1,1061 @@
+{
+  "schema_version": 1,
+  "allowed_hosts": [
+    "commerce.sz.gov.cn",
+    "fgw.sz.gov.cn",
+    "ga.sz.gov.cn",
+    "gzw.sz.gov.cn",
+    "hrss.sz.gov.cn",
+    "hsa.sz.gov.cn",
+    "mzj.sz.gov.cn",
+    "szeb.sz.gov.cn",
+    "wjw.sz.gov.cn",
+    "www.sz.gov.cn",
+    "zjj.sz.gov.cn",
+    "zxqyj.sz.gov.cn"
+  ],
+  "sources": [
+    {
+      "id": "doctor-measures",
+      "url": "https://hrss.sz.gov.cn/xxgk/zcfgjjd/zcfg/rcfw/content/post_9674544.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "policy",
+      "topic": "博士人才生活补贴",
+      "related_ids": [
+        "doctor-interpretation",
+        "youth-entry-faq"
+      ],
+      "status": "archived"
+    },
+    {
+      "id": "doctor-interpretation",
+      "url": "https://hrss.sz.gov.cn/xxgk/zcfgjjd/zcfg/zcjd/content/post_9674545.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "interpretation",
+      "topic": "博士人才生活补贴",
+      "related_ids": [
+        "doctor-measures"
+      ],
+      "status": "archived"
+    },
+    {
+      "id": "youth-entry-faq",
+      "url": "https://hrss.sz.gov.cn/zmhd/cjwt/cjwt/rsrc/content/post_12601559.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "faq",
+      "topic": "青年人才入户补贴",
+      "related_ids": [
+        "doctor-measures"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "employment-list",
+      "url": "https://hrss.sz.gov.cn/ztfw/cjjy/tzgg/content/post_9148314.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "policy",
+      "topic": "就业创业补贴",
+      "related_ids": [],
+      "status": "archived"
+    },
+    {
+      "id": "skills-extension",
+      "url": "https://hrss.sz.gov.cn/xxgk/zcfgjjd/zcfg/rcfw/content/post_12577876.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "amendment",
+      "topic": "职业技能培训补贴有效期",
+      "related_ids": [
+        "skills-expiry-faq"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "skills-expiry-faq",
+      "url": "https://hrss.sz.gov.cn/zmhd/cjwt/cjwt/rsrc/content/post_12894789.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "faq",
+      "topic": "职业技能提升补贴有效期",
+      "related_ids": [
+        "skills-extension"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "startup-grant",
+      "url": "https://hrss.sz.gov.cn/ztfw/cjjy/cyfw/cybt/content/post_2002519.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "guide",
+      "topic": "初创企业补贴",
+      "related_ids": [
+        "employment-adjustment",
+        "employment-list"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "startup-rent",
+      "url": "https://hrss.sz.gov.cn/ztfw/cjjy/cyfw/cybt/content/post_2002507.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "guide",
+      "topic": "创业场租补贴",
+      "related_ids": [
+        "employment-adjustment",
+        "employment-list"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "startup-job-creation",
+      "url": "https://hrss.sz.gov.cn/ztfw/cjjy/cyfw/cybt/content/post_2002499.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "related_ids": [
+        "employment-adjustment",
+        "employment-list"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "reemployment-support",
+      "url": "https://hrss.sz.gov.cn/ztfw/cjjy/cyfw/cybt/content/post_11903472.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "policy",
+      "topic": "就业困难人员再就业补贴",
+      "related_ids": [
+        "employment-adjustment"
+      ],
+      "status": "archived"
+    },
+    {
+      "id": "graduate-support-2025",
+      "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12317950.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "related_ids": [
+        "employment-list",
+        "employment-adjustment",
+        "skills-extension"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "employment-adjustment",
+      "url": "https://hrss.sz.gov.cn/xxgk/zcfgjjd/zcfg/jycy/content/post_11076312.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "policy",
+      "topic": "优化调整稳就业政策措施",
+      "related_ids": [
+        "employment-list",
+        "startup-grant",
+        "startup-rent",
+        "startup-job-creation"
+      ],
+      "status": "archived"
+    },
+    {
+      "id": "job-expansion-2026",
+      "url": "https://hrss.sz.gov.cn/tzgg/content/post_13008911.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "notice",
+      "topic": "2026一次性扩岗补助申领",
+      "related_ids": [
+        "employment-adjustment",
+        "graduate-support-2025"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "social-groups-2026",
+      "url": "https://hrss.sz.gov.cn/zmhd/cjwt/cjwt/jycy/content/post_12943280.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "faq",
+      "topic": "2026个人社保补贴重点人群",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "social-extension-2026",
+      "url": "https://www.sz.gov.cn/hdjl/ywzsk/rsj/jycy/content/post_12960600.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "faq",
+      "topic": "2026个人社保补贴延续",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "skills-gazette-2026",
+      "url": "https://www.sz.gov.cn/zfgb/2026/gb1400/content/post_12601164.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "policy",
+      "topic": "2026技能培训补贴有效期",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "youth-development-2026",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zcfg/content/post_12551434.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "policy",
+      "topic": "2026青年人才来深服务保障",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "eldercare-worker-2026",
+      "url": "https://www.sz.gov.cn/zfgb/2026/gb1422/content/post_12914032.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "policy",
+      "topic": "2026养老机构从业人员补贴",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "graduate-notice-2026",
+      "url": "https://hrss.sz.gov.cn/gkmlpt/content/12/12430/post_12430449.html?jump=true",
+      "selector": ".article-content",
+      "kind": "notice",
+      "topic": "2026届毕业生求职创业补贴",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "smart-products-2026",
+      "url": "https://commerce.sz.gov.cn/gkmlpt/content/12/12801/post_12801325.html",
+      "selector": ".article-content",
+      "kind": "notice",
+      "topic": "2026智能家居购新补贴",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "graduate-application-2026",
+      "url": "https://www.sz.gov.cn/ztfw/jylyfwzt/wyw_184838/ywzsk_184570/content/post_12932260.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "faq",
+      "topic": "2026高校毕业生求职补贴申请方法",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "youth-housing-guide",
+      "url": "https://www.sz.gov.cn/zfgb/zcjd/content/post_12590458.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "interpretation",
+      "topic": "住房与公积金",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "maternity-benefit",
+      "url": "https://hsa.sz.gov.cn/gkmlpt/content/12/12882/post_12882630.html",
+      "selector": ".article-content",
+      "kind": "interpretation",
+      "topic": "生育家庭",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "minimum-living",
+      "url": "https://www.sz.gov.cn/gkmlpt/content/9/9113/post_9113808.html",
+      "selector": ".article-content",
+      "kind": "policy",
+      "topic": "最低生活保障社会救助",
+      "related_ids": [],
+      "status": "archived"
+    },
+    {
+      "id": "childcare-2026",
+      "url": "https://wjw.sz.gov.cn/gzcy/ywzs/jhsy/content/post_12607841.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "interpretation",
+      "topic": "育儿家庭",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "school-admission-2026",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tzgg/content/post_12819389.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "interpretation",
+      "topic": "教育入学",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "student-aid-2023",
+      "url": "https://szeb.sz.gov.cn/home/jyfw/fwxsjz/jyjz/zktzgg/content/post_10435908.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "interpretation",
+      "topic": "教育学生资助",
+      "related_ids": [],
+      "status": "archived"
+    },
+    {
+      "id": "provident-rules-2025",
+      "url": "https://zjj.sz.gov.cn/csml/zcfg/xxgk/yshjgg/content/post_12553079.html",
+      "selector": ".article_content",
+      "kind": "policy",
+      "topic": "住房公积金",
+      "related_ids": [],
+      "status": "pending"
+    },
+    {
+      "id": "medical-security",
+      "url": "https://hsa.sz.gov.cn/ztzl/szsylbzbf/content/post_10875761.html",
+      "selector": ".table-responsive",
+      "kind": "policy",
+      "topic": "医疗保险医保",
+      "related_ids": [],
+      "status": "archived"
+    },
+    {
+      "id": "employment-12944270",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12944270.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_notice",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12679714",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/ztfw/jylyfwzt/wyk_184808/content/post_12679714.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_event",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12926521",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_12926521.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_event",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12755007",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/ztfw/jylyfwzt/wyw_184838/ywzsk_184570/content/post_12755007.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12979241",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/xxgk/qtxx/gzdt/content/post_12979241.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_notice",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12979357",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_12979357.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_notice",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12923887",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_12923887.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_event",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12908625",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_12908625.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12868331",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_12868331.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_event",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12932252",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/hdjl/ywzsk/rsj/jycy/content/post_12932252.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12932253",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/hdjl/ywzsk/rsj/jycy/content/post_12932253.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12932254",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/hdjl/ywzsk/rsj/jycy/content/post_12932254.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-13008068",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_13008068.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_result",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-13003486",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_13003486.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_notice",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12996802",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12996802.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_result",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12993127",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12993127.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_result",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12982013",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12982013.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_result",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12973924",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12973924.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_result",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12963290",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12963290.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_result",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12963326",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/rsxx/zkzp/content/post_12963326.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_result",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12326604",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/ztfw/cjjy/tzgg/content/post_12326604.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "recruitment_result",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12067418",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/ztfw/cjjy/tzgg/content/post_12067418.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12767109",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12767109.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12680805",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12680805.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12219436",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12219436.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "employment-12219435",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/ztfw/yshj/jyzcyjd/content/post_12219435.html",
+      "selector": ".news_cont_d_wrap",
+      "kind": "employment_guide",
+      "topic": "就业招聘与公共就业服务",
+      "status": "pending"
+    },
+    {
+      "id": "companies-sz-sme-2025",
+      "url": "https://zxqyj.sz.gov.cn/attachment/1/1671/1671112/12595049.pdf",
+      "selector": "pdf-company-roster",
+      "kind": "company_directory",
+      "topic": "就业与人才 企业目录 专精特新",
+      "status": "pending",
+      "related_ids": []
+    },
+    {
+      "id": "companies-sz-review-2025",
+      "url": "https://zxqyj.sz.gov.cn/attachment/1/1671/1671113/12595049.pdf",
+      "selector": "pdf-company-roster",
+      "kind": "company_directory",
+      "topic": "就业与人才 企业目录 专精特新",
+      "status": "pending",
+      "related_ids": []
+    },
+    {
+      "id": "companies-sz-cancel-2026",
+      "url": "https://www.sz.gov.cn/attachment/1/1738/1738951/12875438.pdf",
+      "selector": "pdf-company-roster",
+      "kind": "company_directory",
+      "topic": "就业与人才 企业目录 专精特新",
+      "status": "pending",
+      "related_ids": []
+    },
+    {
+      "id": "livelihood-12745504",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_12745504.html",
+      "topic": "住房公积金",
+      "selector": ".news_cont_d_wrap",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12828484",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/school/tzgg/content/post_12828484.html",
+      "topic": "孩子入学",
+      "selector": ".news_cont_d_wrap",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12823966",
+      "related_ids": [],
+      "url": "https://szeb.sz.gov.cn/home/xxgk/zdlyxxgkzl/xqjy/content/post_12823966.html",
+      "topic": "孩子入学",
+      "selector": ".news_cont_d_wrap",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12972743",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12972743.html",
+      "topic": "住房公积金",
+      "selector": ".news_cont_d_wrap",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12690696",
+      "related_ids": [],
+      "url": "https://fgw.sz.gov.cn/ztzl/qtztzl/szscjmyjjfzzhfwpt/zcydt/content/post_12690696.html",
+      "topic": "消费补贴",
+      "selector": ".content",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12801327",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12801327.html",
+      "topic": "消费补贴",
+      "selector": ".news_cont_d_wrap",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12970602",
+      "related_ids": [],
+      "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12970602.html",
+      "topic": "居住与户政",
+      "selector": ".TRS_Editor",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12922621",
+      "related_ids": [],
+      "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12922621.html",
+      "topic": "居住与户政",
+      "selector": ".TRS_Editor",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12922617",
+      "related_ids": [],
+      "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12922617.html",
+      "topic": "居住与户政",
+      "selector": ".TRS_Editor",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12768564",
+      "related_ids": [],
+      "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12768564.html",
+      "topic": "居住与户政",
+      "selector": ".TRS_Editor",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12728192",
+      "related_ids": [],
+      "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12728192.html",
+      "topic": "居住与户政",
+      "selector": ".TRS_Editor",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12728182",
+      "related_ids": [],
+      "url": "https://ga.sz.gov.cn/JMHD/YWZSK/HJGL_ZS/content/post_12728182.html",
+      "topic": "居住与户政",
+      "selector": ".TRS_Editor",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-13024639",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/school/tzgg/content/post_13024639.html",
+      "topic": "孩子入学",
+      "selector": ".news_cont_d_wrap",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-13025728",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/school/tzgg/content/post_13025728.html",
+      "topic": "孩子入学",
+      "selector": ".news_cont_d_wrap",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-13017321",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/school/tzgg/content/post_13017321.html",
+      "topic": "孩子入学",
+      "selector": ".news_cont_d_wrap",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-13016392",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/school/tzgg/content/post_13016392.html",
+      "topic": "孩子入学",
+      "selector": ".news_cont_d_wrap",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-13010260",
+      "related_ids": [],
+      "url": "https://www.sz.gov.cn/school/tzgg/content/post_13010260.html",
+      "topic": "孩子入学",
+      "selector": ".news_cont_d_wrap",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12958412",
+      "related_ids": [],
+      "url": "https://hsa.sz.gov.cn/fzlm/znts/cnyc/content/post_12958412.html",
+      "topic": "社保医保",
+      "selector": ".articlebox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12703511",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/rmwd/content/post_12703511.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12956467",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/sbjxxgk/gzdt/content/post_12956467.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12994809",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12994809.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12959022",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12959022.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12912294",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12912294.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12853336",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12853336.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12801447",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12801447.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12742952",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12742952.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12703207",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12703207.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12632190",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12632190.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12591940",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12591940.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12544574",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12544574.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12492416",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12492416.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12433820",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12433820.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12373691",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12373691.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12320047",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12320047.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12279315",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12279315.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12248061",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12248061.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12171385",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12171385.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12123081",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12123081.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12071446",
+      "related_ids": [],
+      "url": "https://hrss.sz.gov.cn/szsi/gzfw/ywzsk/sbgx/grcbjf/content/post_12071446.html",
+      "topic": "社保医保",
+      "selector": ".detailContent",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12552132",
+      "related_ids": [],
+      "url": "https://hsa.sz.gov.cn/zwgk/zdxzjc/content/post_12552132.html",
+      "topic": "社保医保",
+      "selector": ".articlebox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12524161",
+      "related_ids": [],
+      "url": "https://hsa.sz.gov.cn/zwgk/zdxzjc/content/post_12524161.html",
+      "topic": "社保医保",
+      "selector": ".articlebox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-13024477",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_13024477.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12985593",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12985593.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12938959",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12938959.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12896947",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12896947.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12849296",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12849296.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12849289",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12849289.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12798518",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12798518.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12751298",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12751298.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12702843",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12702843.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12654473",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12654473.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12654468",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12654468.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12617824",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12617824.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    },
+    {
+      "id": "livelihood-12617825",
+      "related_ids": [],
+      "url": "https://mzj.sz.gov.cn/szmz/pc/zmhd/ywzsk/sbgc/content/post_12617825.html",
+      "topic": "养老救助",
+      "selector": ".articleBox",
+      "kind": "livelihood_guide",
+      "status": "pending"
+    }
+  ]
+}

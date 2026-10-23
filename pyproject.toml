@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shenzhen-policy-agent"
+version = "0.17.1"
+description = "Evidence-grounded Shenzhen government policy question answering"
+requires-python = ">=3.11"
+dependencies = ["beautifulsoup4>=4.12,<5", "fastapi>=0.115,<1", "uvicorn>=0.30,<1", "httpx>=0.28,<1", "langgraph>=1.0,<2", "Pillow>=11,<13", "pypdf[crypto]>=6.1,<7", "xlrd>=2,<3"]
+
+[project.scripts]
+policy-agent = "app.cli.ask:main"
+policy-data = "app.cli.data:main"
+policy-api = "app.api.server:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*", "policy_agent*"]
+
+[tool.setuptools.package-data]
+"app.skills" = ["definitions/*/SKILL.md"]

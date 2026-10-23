@@ -1,0 +1,182 @@
+/* Short feedback animations; view state and real request state stay independent. */
+:root {
+  --motion-fast: 150ms;
+  --motion-enter: 280ms;
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+button,
+a,
+.check,
+.agenda-item,
+.calendar-day .day-number,
+.event-line {
+  transition:
+    background-color var(--motion-fast) ease,
+    border-color var(--motion-fast) ease,
+    color var(--motion-fast) ease,
+    box-shadow var(--motion-fast) ease,
+    transform var(--motion-fast) var(--motion-ease);
+}
+.sidebar {
+  transition: transform 240ms var(--motion-ease);
+}
+.scrim {
+  animation: workspace-fade 180ms ease both;
+}
+.page,
+.welcome,
+.turn,
+.result-panel,
+.banner,
+.agenda-editor,
+.source-detail {
+  animation: workspace-enter var(--motion-enter) var(--motion-ease) both;
+}
+.agenda-item,
+.agenda-empty,
+.context-editor {
+  animation: workspace-enter 220ms var(--motion-ease) both;
+}
+.calendar-grid.month-next {
+  animation: month-next 260ms var(--motion-ease) both;
+}
+.calendar-grid.month-previous {
+  animation: month-previous 260ms var(--motion-ease) both;
+}
+.month-calendar {
+  overflow: hidden;
+}
+.event-line {
+  transform-origin: center;
+  animation: event-reveal 240ms var(--motion-ease) both;
+}
+.check.done svg {
+  animation: check-reveal 180ms var(--motion-ease) both;
+}
+.agenda-item.is-done {
+  background-color: #fafcf7;
+}
+.calendar-day.selected .day-number {
+  animation: date-select 200ms var(--motion-ease);
+}
+.pending::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 8px;
+  border-radius: 50%;
+  background: #63886c;
+  animation: request-pulse 1.3s ease-in-out infinite;
+}
+button:not(:disabled):active {
+  transform: scale(0.98);
+}
+@media (hover: hover) {
+  .primary:not(:disabled):hover,
+  .new-chat:hover,
+  .examples button:hover,
+  .source-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 14px #244c4010;
+  }
+  .calendar-day:hover .day-number {
+    transform: translateY(-2px);
+  }
+  .icon:not(:disabled):hover {
+    transform: scale(1.06);
+  }
+}
+@keyframes workspace-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes workspace-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes month-next {
+  from {
+    opacity: 0.35;
+    transform: translateX(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes month-previous {
+  from {
+    opacity: 0.35;
+    transform: translateX(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes event-reveal {
+  from {
+    opacity: 0;
+    transform: scaleX(0.4);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+@keyframes check-reveal {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes date-select {
+  0% {
+    transform: scale(0.91);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes request-pulse {
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  button:not(:disabled):active,
+  .primary:not(:disabled):hover,
+  .new-chat:hover,
+  .examples button:hover,
+  .source-card:hover,
+  .calendar-day:hover .day-number,
+  .icon:not(:disabled):hover {
+    transform: none;
+  }
+}
