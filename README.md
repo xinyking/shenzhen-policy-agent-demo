@@ -1,75 +1,111 @@
 # 深圳政务智能问答系统
 
-基于 LangGraph 的政策问答 Demo，支持政策检索与解读、官方来源补查、引用展示及申请日程管理。回答围绕适用人群、申请条件、材料和办理流程组织，用户可以继续追问。
+查政策时，找到文件只是第一步。哪些条款与自己的情况有关、申请要准备什么、回答的依据在哪里，往往还要来回翻原文。
 
-技术栈：Python、FastAPI、LangGraph、SQLite、HTTPX、Tavily、React、TypeScript、Vite。
+这个项目尝试把这些步骤放进一个对话界面：输入问题，检索深圳官方政策，结合原文给出解读，并附上可以回查的出处。你可以继续追问，也可以把需要跟进的事项整理成申请日程。
 
-## 核心设计
+项目使用 LangGraph 编排问答流程，后端是 FastAPI，前端是 React + TypeScript，政策资料和本地记录存放在 SQLite 中。
 
-- 政策分类、研究和日程规划分工，通过共享状态、条件路由和有界补查循环协作。
-- 将检索、正文阅读和日程操作拆为工具，校验参数与调用权限，限制重复动作、调用次数和执行时间。
-- 为研究、生成和核查阶段分别组织上下文，加载任务 Skill，结合本地会话记忆保留追问背景。
-- 关键词、BM25 与 RRF 融合检索，结合政策年度排序；校验回答结构、引用 ID 和证据支持情况。
-- 异步执行并推送阶段状态，最终回答整体展示。阶段记录展示任务进度，不展示模型内部思维链。
+## 可以做什么
+
+界面提供三种使用方式：
+
+| 模式 | 用途 |
+| --- | --- |
+| 数据库搜索 | 直接查看本地政策原文和出处，不需要配置模型 |
+| 快速回答 | 根据检索到的资料解读问题，适合日常查询 |
+| 深入研究 | 围绕问题进一步查找和补充证据，再组织回答 |
+
+回答中可以查看引用的政策来源，继续追问条件、材料和办理流程。项目也支持上传截图辅助对照材料，以及确认后保存申请日程。
+
+仓库附带 **5 份官方网页快照**，可以先用它们体验检索和引用。样例覆盖范围有限，也不会自动更新；涉及实际办理时，请核对官方最新文件和申请期限。
 
 ## 本地运行
 
-需要 Python 3.12 和 Node.js 22.12+。在仓库目录执行：
+准备 Python 3.12、Node.js 22.12+ 和 Git。下面以 Windows PowerShell 为例。
+
+### 首次安装
 
 ```powershell
+git clone https://github.com/xinyking/shenzhen-policy-agent-demo.git
+cd shenzhen-policy-agent-demo
+
 python -m venv .venv
-.venv\Scripts\Activate.ps1
-python -m pip install -r requirements-lock.txt
-python -m pip install -e . --no-deps
-python scripts/bootstrap_demo.py
+.\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+.\.venv\Scripts\python.exe -m pip install -e . --no-deps
+
+# 用仓库自带的网页快照建立本地政策库，无需联网采集
+.\.venv\Scripts\python.exe scripts/bootstrap_demo.py
+
 cd frontend
 npm ci
 npm run build
 cd ..
-policy-api --port 8000
 ```
 
-macOS/Linux 将激活命令替换为 `source .venv/bin/activate`。
+### 启动使用
 
-打开 [本地界面](http://127.0.0.1:8000)，接口文档位于 [API 文档](http://127.0.0.1:8000/docs)。端口被占用时可指定其他端口。
+在项目根目录执行：
 
-初始化会从随仓库提供的 5 份官方网页快照建立 SQLite 数据库，无需联网或模型。快照用于演示检索和引用，不表示政策当前仍可申请。未配置模型时可以使用数据库搜索，AI 解读需要另行配置模型。
+```powershell
+.\.venv\Scripts\python.exe -m app.api.server --port 8000
+```
 
-## 配置模型和搜索
+打开 [问答界面](http://127.0.0.1:8000)，就可以使用数据库搜索。需要 AI 解读时，再按下方说明配置模型。[接口文档](http://127.0.0.1:8000/docs)也由同一个服务提供。
 
-在界面的模型设置中填写兼容 Chat Completions 的 API 地址、模型名和密钥，配置保存在本机 `data/private/`。也可显式设置 `.env.example` 所列环境变量，程序不会自动加载 `.env`。
+**以后启动只需执行这一条命令。** 后端会同时提供构建好的前端页面，不必另外启动前端服务。停止时在终端按 `Ctrl+C`；8000 端口被占用时，可以通过 `--port` 换一个端口，并打开对应地址。
 
-Tavily 为可选项：设置 `TAVILY_API_KEY` 后，在允许联网且本地检索零命中时补查深圳政府官方来源，并读取正文作为证据。联网不保证找到结果，模型与搜索服务的费用以服务商为准。
+macOS / Linux 用户将上述 `.\.venv\Scripts\python.exe` 换成 `./.venv/bin/python`，其余安装步骤相同。
 
-## 目录
+## 配置模型
 
-| 路径 | 用途 |
+在界面的模型设置中填写兼容 Chat Completions 的 API 地址、模型名和 API Key。配置保存在本机 `data/private/`，后续启动可以继续使用。
+
+也可以通过环境变量配置，字段见 [.env.example](.env.example)。程序不会自动读取 `.env`，需要在启动服务前显式设置环境变量。
+
+如果希望在本地没有检索结果时补查官方来源，可以额外设置 `TAVILY_API_KEY`。配置模型和搜索服务、允许联网且本地检索零命中时，系统会尝试搜索深圳政府网站并读取正文。Tavily 是可选项，使用本地资料不需要它。
+
+## 问答是怎么完成的
+
+一次问答大致经过以下步骤：
+
+1. 识别问题，确定检索和研究方式。
+2. 从本地政策库查找相关段落；满足条件时补查官方网页。
+3. 根据证据组织回答，检查回答结构、引用和证据支持。
+4. 将回答和出处返回界面，供用户继续追问或查看原文。
+
+LangGraph 负责串起这些步骤，通过共享状态和条件分支控制后续动作。研究阶段可以调用检索、正文阅读等工具，工具调用有参数校验、权限和次数限制。界面会展示执行阶段，最终回答生成后整体显示。
+
+本地检索使用关键词、BM25 和 RRF 融合排序，目前没有接入 Embedding 向量检索。更详细的调用关系见 [架构说明](docs/architecture.md)。
+
+## 开发与测试
+
+修改 Python 代码后，需要重启后端。修改前端后，执行 `npm run build` 并刷新页面；开发前端时，也可以在后端运行的同时，在 `frontend/` 下执行 `npm run dev`。
+
+在项目根目录运行测试：
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s tests
+```
+
+这些测试用于检查工具、检索、接口和流程行为。真实模型的回答质量还需要单独评估，重点检查是否找全相关政策、结论是否有原文支持、回答是否遗漏关键信息。
+
+主要代码位置：
+
+| 目录 | 内容 |
 | --- | --- |
-| `app/agent/` | 图编排、共享状态、上下文、模型调用与子 Agent |
-| `app/api/` | HTTP 接口、异步任务和执行记录 |
-| `app/tools/` | 工具注册、政策与截图工具、联网补查 |
-| `app/knowledge/` | 网页解析、快照、SQLite 与融合检索 |
-| `app/memory/` | 本地个人信息与会话记忆 |
-| `app/skills/` | Skill 选择、加载与任务说明 |
+| `app/agent/` | LangGraph 编排、上下文与模型调用 |
+| `app/api/` | HTTP 接口、异步任务与执行记录 |
+| `app/tools/` | 政策检索、正文阅读、截图等工具 |
+| `app/knowledge/` | 网页解析、政策快照与检索索引 |
+| `app/memory/`、`app/skills/` | 本地记忆与任务指引 |
 | `app/evaluation/` | 检索评估 |
-| `frontend/` | 对话、证据、配置与日程界面 |
-| `data/demo/` | 官方网页样例与来源清单 |
-| `data/sources/` | 可用于扩充资料库的官方来源目录 |
-| `scripts/` | 离线初始化和来源更新脚本 |
-| `tests/` | 工具、检索、接口与流程测试 |
+| `frontend/` | 对话、引用、模型设置与日程界面 |
+| `data/demo/`、`data/sources/` | 演示快照与政策来源目录 |
+| `scripts/`、`tests/` | 初始化、资料更新脚本与测试 |
 
-架构详见 [docs/architecture.md](docs/architecture.md)。
+## 数据与使用范围
 
-## 验证
+这是一个在本机运行的单进程 Demo。公开政策库保存在 `data/store/`，模型密钥、个人信息和会话等本地数据保存在 `data/private/`；这些运行数据不随仓库分发，请勿提交到 Git。
 
-安装依赖并完成前端构建后运行：
-
-```sh
-python -m unittest discover -s tests
-```
-
-离线测试不能代替真实模型的回答质量评估。模型效果应使用独立标注问题，分别检查检索召回、事实支持和回答完整性。
-
-## 使用范围
-
-这是本地单进程 Demo，未提供面向公网的用户认证与租户隔离。API 密钥、会话、个人信息和运行数据库均不随仓库提供，也不应提交到 Git。当前记忆使用 SQLite，未接入 Redis、向量数据库或可恢复的 LangGraph Checkpoint。政策原文与适用期限以官方最新发布为准。
+当前没有公网用户认证、租户隔离或可恢复的 LangGraph Checkpoint。服务重启后，进行中的任务不能断点续跑。若要部署成多人使用的服务，还需要补充这些能力。
